@@ -20,9 +20,9 @@ export default function Projects() {
                         </a>
                         <div className="p-4">
                             <h3 className="text-gray-300">Hangman!</h3>
-                            <p>This app is a recreation of hangman made using React. Play it now whilst it's hosted on
+                            <div>This app is a recreation of hangman made using React. Play it now whilst it's hosted on
                                 <a href="https://hangmanih-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"
-                                   className="text-gray-400"> Heroku</a></p>
+                                   className="text-gray-400"> Heroku</a></div>
                         </div>
                     </div>
                     <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
@@ -38,11 +38,11 @@ export default function Projects() {
                         </a>
                         <div className="p-4">
                             <h3 className="text-gray-300">iTunes Search and favourite</h3>
-                            <p>
+                            <div>
                                 This is an iTunes search app. It allows the user to search iTunes
                                 and make a list of their favourites. Making use of React and
                                 Express.
-                            </p>
+                            </div>
                         </div>
                     </div>
                     <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
@@ -58,11 +58,11 @@ export default function Projects() {
                         </a>
                         <div className="p-4">
                             <h3 className="text-gray-300">Quotation Management System</h3>
-                            <p>
+                            <div>
                                 Full stack MERN project. This is an RFQ app which allows Buyers to manage Requests For
                                 Quotations.
                                 Making use of MongoDB, Express, React (Next.js) and Node.
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
