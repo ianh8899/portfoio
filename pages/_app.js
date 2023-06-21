@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../app/globals.css'
 import RootLayout from '../app/layout'
 
 function MyApp({ Component, pageProps }) {
