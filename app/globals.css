@@ -1,27 +1,55 @@
+/*app/globals.css*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer components {
+    .sidebar-icon {
+        @apply relative flex items-center justify-center h-16 w-16 mt-5 mb-5 mx-auto bg-gray-800 text-gray-400 rounded-3xl
+        hover:bg-blue-500 hover:text-white hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer p-2.5;
+    }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    .sidebar-tooltip {
+        @apply absolute w-auto p-2 m-20 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold
+        transition-all duration-100 scale-0 origin-left scale-0
+    }
+    .sidebar-hr {
+        @apply bg-white dark:bg-gray-800
+        border border-gray-600 dark:bg-gray-800 rounded-full
+        mx-2;
+    }
+    .home-icon {
+        @apply relative flex items-center justify-center h-24 w-24 mt-5 mb-5 mx-auto bg-gray-800 text-gray-400 rounded-3xl
+        hover:bg-blue-500 hover:text-white hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer p-2.5;
+    }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background-color: #e5e5e5;
+}
+
+li {
+    /*@apply list-disc;*/
+    font-size: smaller;
+
+}
+
+h3 {
+    font-size: large;
+    @apply font-extrabold;
+    color: rgb(0, 11, 61);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    @apply font-bold;
+    color: #575757;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+h5 {
+    padding-bottom: 10px;
 }
