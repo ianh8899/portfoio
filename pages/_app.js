@@ -1,4 +1,4 @@
-//app/page.js
+//app/_app.js
 
 import RootLayout from '../app/layout'
 
