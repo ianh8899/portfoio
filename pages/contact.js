@@ -13,7 +13,7 @@ const Contact = () => {
                         <ContactIcon icon={<MdEmail size="32"/>} text="ihitchman83@gmail.com"/>
                         <ContactIcon icon={<MdOutlinePhone size="32"/>} text="+44 (0)7563 342208"/>
                         <ContactIcon icon={<MdHouse size="32"/>}
-                                     text="London Address: Flat 15, Tiltman Place, Finsbury Park, London N7 7EN"/>
+                                     text="London Address: Flat 15, Tiltman Place 6, Finsbury Park, London N7 7EJ"/>
                         <ContactIcon icon={<MdHouse size="32"/>}
                                      text="Coventry Address: 9 Deighton Grove, Coventry, CV3 3JH"/>
                     </div>
