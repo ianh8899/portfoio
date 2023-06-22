@@ -65,6 +65,24 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
+                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
+                        <a
+                            href="https://www.hyperiondev.com/portfolio/139412/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div className="h-64 w-full overflow-hidden">
+                                <img src="/Hyperiondev-logo.jpg" alt="screenshot from RFQ app"
+                                     className="h-full w-full object-cover"/>
+                            </div>
+                        </a>
+                        <div className="p-4">
+                            <h3 className="text-gray-300">HyperionDev Portfolio</h3>
+                            <div>
+                                All of my coding projects created throughout my bootcamp.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </RootLayout>
