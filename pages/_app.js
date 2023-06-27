@@ -1,3 +1,5 @@
+//pages/_app.js
+
 import '../app/globals.css'
 import RootLayout from '../app/layout'
 

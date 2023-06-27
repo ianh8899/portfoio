@@ -22,7 +22,7 @@ export default function Projects() {
                             <h3 className="text-gray-300">Hangman!</h3>
                             <div>This app is a recreation of hangman made using React. Play it now whilst it's hosted on
                                 <a href="https://hangmanih-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"
-                                   className="text-gray-400"> Heroku</a></div>
+                                   className="text-red-400"> Heroku</a></div>
                         </div>
                     </div>
                     <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
