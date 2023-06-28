@@ -9,17 +9,20 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function Home() {
     return <RootLayout>
         <div className="">
-            <section className="w-full min-h-screen flex flex-col justify-center items-center pl-40"
-                 style={{
-                     backgroundImage: `url('/wallpaper.jpg')`,
-                     backgroundSize: 'cover',
-                     backgroundRepeat: 'no-repeat'
-                 }}>
+            <section
+                className="w-full min-h-screen flex flex-col justify-center items-center pl-40"
+                style={{
+                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/wallpaper.jpg')`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                }}
+            >
                 <div className="bg-opacity-90 bg-black text-white p-4 border-2 border-white rounded">
                     <h1 className="sm:text-6xl lg:text-7xl font-bold text-center mb-5">HI! I'M IAN HITCHMAN</h1>
                     <h2 className="sm:text-xl lg:text-2xl text-center">Full-stack web developer in London</h2>
                 </div>
             </section>
+
             <section className="w-full min-h-screen bg-white flex flex-col justify-center py-10">
                 <div className="max-w-6xl mx-auto px-4 pl-40">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-start">
