@@ -18,7 +18,7 @@ export default function Home() {
                 }}
             >
                 <div className="bg-opacity-90 bg-black text-white p-4 border-2 border-white rounded">
-                    <h1 className="sm:text-6xl lg:text-7xl font-bold text-center mb-5">HI! I'M IAN HITCHMAN</h1>
+                    <h1 className="sm:text-6xl lg:text-7xl font-bold text-center mb-5">Hi! I'm Ian Hitchman</h1>
                     <h2 className="sm:text-xl lg:text-2xl text-center">Full-stack web developer in London</h2>
                 </div>
             </section>
