@@ -12,7 +12,7 @@ export default function Home() {
             <section
                 className="w-full min-h-screen flex flex-col justify-center items-center pl-40"
                 style={{
-                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/wallpaper.jpg')`,
+                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/wallpaper.jpg')`,
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
                 }}
