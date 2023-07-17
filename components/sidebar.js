@@ -1,6 +1,6 @@
 //components/sidebar.js
 
-import {FaGithub, FaHome, FaLinkedin, FaProjectDiagram, FaUserGraduate} from 'react-icons/fa'
+import {FaGithub, FaHome, FaLinkedin, FaProjectDiagram, FaUserGraduate, FaFilePdf} from 'react-icons/fa'
 import {IoIosContact} from 'react-icons/io'
 import {MdOutlineWorkOutline} from 'react-icons/md'
 import Link from 'next/link'
@@ -11,13 +11,15 @@ const Sidebar = () => {
         bg-primary text-white text-secondary">
             <SideBarIcon icon={<FaHome size="50"/>} link="/" text="Home" extraClasses="home-icon"/>
             <Divider/>
-            <SideBarIcon icon={<MdOutlineWorkOutline size="32"/>} link="/experience" text="Professional Experience"/>
+            <SideBarIcon icon={<MdOutlineWorkOutline size="32"/>} link="/experience" text="Experience"/>
             <SideBarIcon icon={<FaUserGraduate size="32"/>} link="/learning" text="Education and Training"/>
             <SideBarIcon icon={<FaProjectDiagram size="32"/>} link="/projects" text="Projects"/>
             <SideBarIcon icon={<IoIosContact size="32"/>} link="/contact" text="Contact"/>
             <SideBarIcon icon={<FaLinkedin size="32"/>} link="https://www.linkedin.com/in/ian-hitchman-94a1a512a/"
                          text="LinkedIn" isExternal={true}/>
             <SideBarIcon icon={<FaGithub size="32"/>} link="https://github.com/ianh8899" text="GitHub"
+                         isExternal={true}/>
+            <SideBarIcon icon={<FaFilePdf size="32"/>} link="/ian-hitchman-cv.pdf" text="Download My CV"
                          isExternal={true}/>
         </div>
     )
@@ -42,7 +44,7 @@ const SideBarIcon = ({icon, link, text, extraClasses = '', isExternal = false}) 
                     {icon}
                     <span className="sidebar-tooltip group-hover:scale-125">
                         {text}
-                        </span>
+                    </span>
                 </div>
             </Link>
         );

@@ -8,7 +8,26 @@ export default function Experience() {
             <div className="max-w-6xl mx-auto px-4 pl-40">
                 <h1 className="text-4xl py-8 bg-gray-800 rounded-b-2xl text-white text-center font-bold">Webdev
                     Career</h1>
-                <p className="py-6">Bootcamp completed June 2023</p>
+                <div className="pb-6">
+                    <h3>HyperionDev, London (March 2023 – July 2023)</h3>
+                    <h4>University of Edinburgh Full Stack Web Development</h4>
+                    <h5>
+                        Throughout this course I learnt the fundamentals of Web development and
+                        learnt coding in JavaScript, CSS, HTML as well as using frameworks React
+                        and Next.js
+                    </h5>
+                    <ul className="list-disc list-inside">
+                        <li>
+                            For the front-end part of the course, I learnt to use CSS, React and
+                            Bootstrap to create styled UI elements and in the backend, I learnt to use
+                            Express and MongoDB to handle user data
+                        </li>
+                        <li>
+                            I also learnt to validate and authenticate users making use of JSON Web
+                            tokens as well as working with APIs to show data in Apps
+                        </li>
+                    </ul>
+                </div>
                 <h1 className="text-4xl py-8 bg-gray-800 rounded-2xl text-white text-center font-bold">Procurement
                     Career</h1>
                 <h3>Areas of Expertise</h3>
@@ -59,7 +78,7 @@ export default function Experience() {
                 </ul>
                 <hr className="sidebar-hr"/>
                 <div>
-                    <h3>Tevva, London (July 2022– Present)</h3>
+                    <h3>Tevva, London (July 2022 – March 2023)</h3>
                     <h4>Senior Production Buyer</h4>
                     <h5>
                         The commercial commodity lead for powertrain, ensuring the business
