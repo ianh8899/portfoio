@@ -12,7 +12,6 @@ const Sidebar = () => {
             <SideBarIcon icon={<FaHome size="50"/>} link="/" text="Home" extraClasses="home-icon"/>
             <Divider/>
             <SideBarIcon icon={<MdOutlineWorkOutline size="32"/>} link="/experience" text="Experience"/>
-            <SideBarIcon icon={<FaUserGraduate size="32"/>} link="/learning" text="Education and Training"/>
             <SideBarIcon icon={<FaProjectDiagram size="32"/>} link="/projects" text="Projects"/>
             <SideBarIcon icon={<IoIosContact size="32"/>} link="/contact" text="Contact"/>
             <SideBarIcon icon={<FaLinkedin size="32"/>} link="https://www.linkedin.com/in/ian-hitchman-94a1a512a/"
