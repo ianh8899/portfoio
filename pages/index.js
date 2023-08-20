@@ -48,7 +48,7 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="col-span-full md:col-span-1 flex justify-center lg:justify-end md:min-w-[250px]">
-                            <img src="/Me.jpeg" alt="Your name" style={{
+                            <img src="/Me.jpg" alt="Your name" style={{
                                 borderRadius: '50%',
                                 width: '250px',
                                 height: '250px',
