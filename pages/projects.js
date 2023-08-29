@@ -10,19 +10,20 @@ export default function Projects() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-white pt-8">
                     <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
                         <a
-                            href="https://github.com/ianh8899/Hangman"
+                            href="https://github.com/ianh8899/Shopping"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <div className="h-64 w-full overflow-hidden">
-                                <img src="/hangman.png" alt="hangman picture" className="h-full w-full object-cover"/>
+                                <img src="../public/Screenshot stripe page.png" alt="stripe picture"
+                                     className="h-full w-full object-cover"/>
                             </div>
                         </a>
                         <div className="p-4">
                             <h3 className="text-gray-300">Hangman!</h3>
-                            <div>This app is a recreation of hangman made using React. Play it now whilst it's hosted on
-                                <a href="https://hangmanih-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"
-                                   className="text-red-400"> Heroku</a></div>
+                            <div>This app is a full stack eCommerce app making use of Strapi for content management and
+                                Stripe for payments. Front end created using React and Sass.
+                            </div>
                         </div>
                     </div>
                     <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
@@ -81,6 +82,23 @@ export default function Projects() {
                             <div>
                                 All of my coding projects created throughout my bootcamp.
                             </div>
+                        </div>
+                    </div>
+                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
+                        <a
+                            href="https://github.com/ianh8899/Hangman"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <div className="h-64 w-full overflow-hidden">
+                                <img src="/hangman.png" alt="hangman picture" className="h-full w-full object-cover"/>
+                            </div>
+                        </a>
+                        <div className="p-4">
+                            <h3 className="text-gray-300">Hangman!</h3>
+                            <div>This app is a recreation of hangman made using React. Play it now whilst it's hosted on
+                                <a href="https://hangmanih-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+                                   className="text-red-400"> Heroku</a></div>
                         </div>
                     </div>
                 </div>
