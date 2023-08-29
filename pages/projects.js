@@ -15,7 +15,7 @@ export default function Projects() {
                             rel="noopener noreferrer"
                         >
                             <div className="h-64 w-full overflow-hidden">
-                                <img src="../public/Screenshot stripe page.png" alt="stripe picture"
+                                <img src="/Screenshot stripe page.png" alt="stripe picture"
                                      className="h-full w-full object-cover"/>
                             </div>
                         </a>
