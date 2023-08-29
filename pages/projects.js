@@ -20,7 +20,7 @@ export default function Projects() {
                             </div>
                         </a>
                         <div className="p-4">
-                            <h3 className="text-gray-300">Hangman!</h3>
+                            <h3 className="text-gray-300">eCommerce store</h3>
                             <div>This app is a full stack eCommerce app making use of Strapi for content management and
                                 Stripe for payments. Front end created using React and Sass.
                             </div>
