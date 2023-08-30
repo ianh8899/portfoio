@@ -22,7 +22,9 @@ export default function Projects() {
                         <div className="p-4">
                             <h3 className="text-gray-300">eCommerce store</h3>
                             <div>This app is a full stack eCommerce app making use of Strapi for content management and
-                                Stripe for payments. Front end created using React and Sass.
+                                Stripe for payments. Front end created using React and Sass. View a live preview
+                                <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer"
+                                   className="text-red-400"> here</a>
                             </div>
                         </div>
                     </div>
