@@ -18,7 +18,7 @@ const Sidebar = () => {
                          text="LinkedIn" isExternal={true}/>
             <SideBarIcon icon={<FaGithub size="32"/>} link="https://github.com/ianh8899" text="GitHub"
                          isExternal={true}/>
-            <SideBarIcon icon={<FaFilePdf size="32"/>} link="/ian-hitchman-cv.pdf" text="Download My CV"
+            <SideBarIcon icon={<FaFilePdf size="32"/>} link="/IanHitchman.pdf" text="Download My CV"
                          isExternal={true}/>
         </div>
     )
