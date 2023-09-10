@@ -58,15 +58,22 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-6xl mx-auto px-4 pl-40">
-                    <h4 className="text-xl mt-10 mb-10 font-bold text-center text-blue-950">Technologies I have experience in</h4>
-                    <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
-                        <FaHtml5 size="40" color={"#E34F26"} className="my-2"/>
-                        <FaCss3Alt size="40" color={"#1572B6"} className="my-2"/>
-                        <SiJavascript size="40" color={"#f8c41b"} className="my-2"/>
-                        <FaReact size="40" color={"#61DBFB"} className="my-2"/>
-                        <SiNextdotjs size="40" color={"#000000"} className="my-2"/>
-                        <SiTailwindcss size="40" color={"#38B2AC"} className="my-2"/>
+                <div className="max-w-6xl mx-auto px-4 pl-40 md:grid md:grid-cols-2 md:gap-x-40">
+                    <div className="mb-10 md:mb-0">
+                        <h4 className="text-xl mt-10 mb-10 font-bold text-center text-blue-950">Languages I'm proficient in</h4>
+                        <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
+                            <FaHtml5 size="40" color={"#E34F26"} className="my-2"/>
+                            <FaCss3Alt size="40" color={"#1572B6"} className="my-2"/>
+                            <SiJavascript size="40" color={"#f8c41b"} className="my-2"/>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 className="text-xl mt-10 mb-10 font-bold text-center text-blue-950">Technologies I'm most familiar with</h4>
+                        <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
+                            <FaReact size="40" color={"#61DBFB"} className="my-2"/>
+                            <SiNextdotjs size="40" color={"#000000"} className="my-2"/>
+                            <SiTailwindcss size="40" color={"#38B2AC"} className="my-2"/>
+                        </div>
                     </div>
                 </div>
             </section>

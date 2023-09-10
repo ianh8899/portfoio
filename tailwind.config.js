@@ -22,6 +22,9 @@ module.exports = {
               fontFamily: {
                 'poppins': ['Poppins', 'sans-serif']
               }
+            },
+            backgroundColor: {
+                'lighter-blue': '#f5fafd'
             }
         },
         screens: {
@@ -30,6 +33,7 @@ module.exports = {
             'lg': '1024px',
             'xl': '1280px',
             '2xl': '1536px',
+            'custom': "1800px"
         },
     },
     variants: {},
