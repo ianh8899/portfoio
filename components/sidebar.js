@@ -2,7 +2,6 @@
 
 import {FaGithub, FaHome, FaLinkedin, FaProjectDiagram, FaFilePdf} from 'react-icons/fa'
 import {IoIosContact} from 'react-icons/io'
-import {MdOutlineWorkOutline} from 'react-icons/md'
 import Link from 'next/link'
 
 const Sidebar = () => {
@@ -18,7 +17,7 @@ const Sidebar = () => {
                          text="LinkedIn" isExternal={true}/>
             <SideBarIcon icon={<FaGithub size="32"/>} link="https://github.com/ianh8899" text="GitHub"
                          isExternal={true}/>
-            <SideBarIcon icon={<FaFilePdf size="32"/>} link="/IanHitchman.pdf" text="Download My CV"
+            <SideBarIcon icon={<FaFilePdf size="32"/>} link="/IanHitchmanCV.pdf" text="Download My CV"
                          isExternal={true}/>
         </div>
     )

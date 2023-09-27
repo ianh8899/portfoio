@@ -36,6 +36,7 @@ const ContactIcon = ({icon, text = ''}) => {
                 <button onClick={copyToClipboard} title="Copy to clipboard" className={`transition-colors duration-300 p-1 rounded ${isCopied ? 'text-white bg-gray-800' : 'bg-white text-black'}`}>
                     <MdContentCopy size="20"/>
                 </button>
+
             </div>
         </div>
     );
