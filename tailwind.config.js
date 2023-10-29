@@ -1,5 +1,3 @@
-//tailwind.config.js
-
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
@@ -11,7 +9,9 @@ module.exports = {
     ],
     theme: {
         extend: {
-            fontFamily: {},
+            fontFamily: {
+                'poppins': ['Poppins', 'sans-serif']
+            },
             colors: {
                 primary: '#202225',
                 secondary: '#5865f2',
@@ -19,12 +19,12 @@ module.exports = {
                     900: '#202225',
                     800: '#2f3136'
                 },
-              fontFamily: {
-                'poppins': ['Poppins', 'sans-serif']
-              }
             },
             backgroundColor: {
                 'lighter-blue': '#f5fafd'
+            },
+            scrollSnapType: {
+                'y-proximity': 'y proximity'
             }
         },
         screens: {

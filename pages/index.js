@@ -47,7 +47,8 @@ export default function Home() {
                                 that lie ahead.
                             </p>
                         </div>
-                        <div className="col-span-full md:col-span-1 flex justify-center lg:justify-end md:min-w-[250px]">
+                        <div
+                            className="col-span-full md:col-span-1 flex justify-center lg:justify-end md:min-w-[250px]">
                             <img src="/Me.jpg" alt="Your name" style={{
                                 borderRadius: '50%',
                                 width: '250px',
@@ -58,23 +59,17 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-6xl mx-auto px-4 pl-40 md:grid md:grid-cols-2 md:gap-x-40">
-                    <div className="mb-10 md:mb-0">
-                        <h4 className="text-xl mt-10 mb-10 font-bold text-center text-blue-950">Languages I'm proficient in</h4>
-                        <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
-                            <FaHtml5 size="40" color={"#E34F26"} className="my-2"/>
-                            <FaCss3Alt size="40" color={"#1572B6"} className="my-2"/>
-                            <SiJavascript size="40" color={"#f8c41b"} className="my-2"/>
-                        </div>
+                <div className="max-w-6xl mx-auto px-4 pl-40">
+                    <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap mt-32">
+                        <FaHtml5 size="40" color={"#E34F26"} className="my-2"/>
+                        <FaCss3Alt size="40" color={"#1572B6"} className="my-2"/>
+                        <SiJavascript size="40" color={"#f8c41b"} className="my-2"/>
+                        <FaReact size="40" color={"#61DBFB"} className="my-2"/>
+                        <SiNextdotjs size="40" color={"#000000"} className="my-2"/>
+                        <SiTailwindcss size="40" color={"#38B2AC"} className="my-2"/>
                     </div>
-                    <div>
-                        <h4 className="text-xl mt-10 mb-10 font-bold text-center text-blue-950">Technologies I'm most familiar with</h4>
-                        <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
-                            <FaReact size="40" color={"#61DBFB"} className="my-2"/>
-                            <SiNextdotjs size="40" color={"#000000"} className="my-2"/>
-                            <SiTailwindcss size="40" color={"#38B2AC"} className="my-2"/>
-                        </div>
-                    </div>
+                </div>
+                <div>
                 </div>
             </section>
             <section>
@@ -83,9 +78,31 @@ export default function Home() {
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
+                            contentStyle={{color: '#000000', borderTop: '#004073 5px solid'}}
+                            contentArrowStyle={{borderRight: '7px solid  rgb(255, 255, 255)'}}
+                            date="Oct 2023 - present"
+                            iconStyle={{color: '#fff'}}
+                            icon={
+                                <div style={{
+                                    backgroundImage: `url("/beachshore.jpg")`,
+                                    backgroundSize: 'cover',
+                                    borderRadius: '50%',
+                                    width: '100%',
+                                    height: '100%',
+                                }}/>
+                            }
+                        >
+                            <h3 className="vertical-timeline-element-title">Beachshore Design</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Watford, UK</h4>
+                            <p>
+                                Web Developer, Front end
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
                             contentStyle={{color: '#000000', borderTop: '#00b99d 5px solid'}}
                             contentArrowStyle={{borderRight: '7px solid  rgb(255, 255, 255)'}}
-                            date="Mar 2023 - present"
+                            date="Mar 2023 - Sept 2023"
                             iconStyle={{color: '#fff'}}
                             icon={
                                 <div style={{

@@ -1,141 +1,44 @@
 //pages/projects.js
 
 import RootLayout from '../app/layout'
-import {FaCss3Alt, FaHtml5, FaNode, FaReact, FaSass, FaStripe} from "react-icons/fa";
-import {SiExpress, SiJavascript, SiMongodb, SiNextdotjs, SiStrapi} from "react-icons/si";
+import {FaCss3Alt, FaHtml5, FaNode, FaReact,} from "react-icons/fa";
+import {SiExpress, SiJavascript, SiMongodb, SiNextdotjs, SiTypescript} from "react-icons/si";
 
 export default function Projects() {
     return (
         <RootLayout>
             <div>
-                {/*<h2 className="text-4xl py-8 bg-gray-800 rounded-b-2xl text-white text-center font-bold">Projects</h2>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-white pt-8">
-                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
-                        <a
-                            href="https://github.com/ianh8899/Shopping"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <div className="h-64 w-full overflow-hidden">
-                                <img src="/Screenshot stripe page.png" alt="stripe picture"
-                                     className="h-full w-full object-cover"/>
-                            </div>
-                        </a>
-                        <div className="p-4">
-                            <h3 className="text-gray-300">eCommerce store</h3>
-                            <div>This app is a full stack eCommerce app making use of Strapi for content management and
-                                Stripe for payments. Front end created using React and Sass. View a live preview
-                                <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer"
-                                   className="text-red-400"> here</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
-                        <a
-                            href="https://github.com/ianh8899/iTunesSearch"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <div className="h-64 w-full overflow-hidden">
-                                <img src="/iTunesSearch.png" alt="screenshot from iTunes app"
-                                     className="h-full w-full object-cover"/>
-                            </div>
-                        </a>
-                        <div className="p-4">
-                            <h3 className="text-gray-300">iTunes Search and favourite</h3>
-                            <div>
-                                This is an iTunes search app. It allows the user to search iTunes
-                                and make a list of their favourites. Making use of React and
-                                Express.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
-                        <a
-                            href="https://github.com/ianh8899/rfq-app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <div className="h-64 w-full overflow-hidden">
-                                <img src="/rfq.png" alt="screenshot from RFQ app"
-                                     className="h-full w-full object-cover"/>
-                            </div>
-                        </a>
-                        <div className="p-4">
-                            <h3 className="text-gray-300">Quotation Management System</h3>
-                            <div>
-                                Full stack MERN project. This is an RFQ app which allows Buyers to manage Requests For
-                                Quotations.
-                                Making use of MongoDB, Express, React (Next.js) and Node.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
-                        <a
-                            href="https://www.hyperiondev.com/portfolio/139412/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <div className="h-64 w-full overflow-hidden">
-                                <img src="/Hyperiondev-logo.jpg" alt="screenshot from RFQ app"
-                                     className="h-full w-full object-cover"/>
-                            </div>
-                        </a>
-                        <div className="p-4">
-                            <h3 className="text-gray-300">HyperionDev Portfolio</h3>
-                            <div>
-                                All of my coding projects created throughout my bootcamp.
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md text-center">
-                        <a
-                            href="https://github.com/ianh8899/Hangman"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <div className="h-64 w-full overflow-hidden">
-                                <img src="/hangman.png" alt="hangman picture" className="h-full w-full object-cover"/>
-                            </div>
-                        </a>
-                        <div className="p-4">
-                            <h3 className="text-gray-300">Hangman!</h3>
-                            <div>This app is a recreation of hangman made using React. Play it now whilst it's hosted on
-                                <a href="https://hangmanih-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"
-                                   className="text-red-400"> Heroku</a></div>
-                        </div>
-                    </div>
-                </div>*/}
                 <section className="w-full min-h-screen bg-lighter-blue flex flex-col justify-center py-10">
                     <div className="mx-auto px-4 pl-40" style={{ maxWidth: "110rem" }}>
                         <div className="p-12 bg-white shadow-2xl rounded-lg">
                             <div className="grid grid-cols-1 lg:grid-cols-7 gap-8 my-20 items-center">
                                 <div className="col-span-full lg:col-span-4">
-                                    <h4 className="text-3xl mb-8 font-semibold text-center text-blue-950">Clothing Store eCommerce App</h4>
+                                    <h4 className="text-3xl mb-8 font-semibold text-center text-blue-950">Social Media Platform</h4>
                                     <p className="mb-6 text-lg leading-relaxed">
-                                        This project serves as a demonstration of a full-stack e-Commerce platform. While currently just an example, the underlying architecture and technical integration showcase a cohesive blend of frontend and backend technologies.
-                                        Try it out <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline font-bold"> here</a>
+                                        This project represents a social media platform built using modern tools and technologies. Users can effortlessly share their thoughts, dive into discussions, and connect with the digital community.
+                                        Give it a spin <a href="https://community-mern-m1oznhhgs-ianh8899.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline font-bold"> here</a>
                                     </p>
                                     <h5 className="mb-4 font-semibold text-lg">Key Technical Features:</h5>
                                     <ul className="mb-6 list-disc pl-5 space-y-2 text-lg">
-                                        <li>Frontend: The interface is built with React, ensuring a dynamic and interactive user experience. Styling is enhanced by the use of Sass, allowing for a more organized and maintainable CSS structure.</li>
-                                        <li>Backend: Strapi, a Node.js based headless CMS, powers the backend. It's hosted on an Ubuntu VPS via Hostinger, providing a reliable and efficient data management system.</li>
-                                        <li>Payments: While only in test mode, the integration of Stripe demonstrates the potential for handling secure transactions. It underscores the feasibility of expanding this project into a fully operational e-Commerce platform.</li>
+                                        <li>Frontend: The application's frontend is crafted with Next.js, optimizing for faster page loads and enhanced SEO. TypeScript brings a layer of type safety, ensuring a robust application with fewer runtime errors.</li>
+                                        <li>Backend: Express.js, running within the Node.js environment, seamlessly manages server-side operations, routing, and data handling.</li>
+                                        <li>User Authentication: With Clerk's integration, users experience a secure and streamlined authentication process, letting them confidently engage with the platform's offerings.</li>
+                                        <li>Database: MongoDB, a NoSQL database, is at the core of data management, ensuring efficient storage and retrieval of user content.</li>
                                     </ul>
                                     <div className="mt-8">
-                                        <h4 className="text-2xl mb-5 font-semibold text-center text-blue-950">Tech Stack</h4>
                                         <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
-                                            <FaReact size="40" color={"#61DBFB"} className="my-2"/>
-                                            <FaSass size="40" color={"#CC6699"} className="my-2"/>
-                                            <FaStripe size="40" color={"#008CDD"} className="my-2"/>
-                                            <SiStrapi size="40" color={"#2E7EEA"} className="my-2"/>
+                                            <SiTypescript size="40" color={"#3178C6"} className="my-2"/>
+                                            <SiMongodb size="40" color={"#4DB33D"} className="my-2"/>
+                                            <SiExpress size="40" color={"#000000"} className="my-2"/>
+                                            <SiNextdotjs size="40" color={"#000000"} className="my-2"/>
+                                            <FaNode size="40" color={"#539E43"} className="my-2"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-span-full md:col-span-3 flex justify-center">
-                                    <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://community-mern-m1oznhhgs-ianh8899.vercel.app/" target="_blank" rel="noopener noreferrer">
                                         <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
-                                            <img src="/eCommerce%20Image.jpg" alt="stripe picture" className="w-full object-contain"/>
+                                            <img src="/community-mern.png" alt="stripe picture" className="w-full object-contain"/>
                                         </div>
                                     </a>
                                 </div>
