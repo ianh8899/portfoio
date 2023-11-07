@@ -8,26 +8,43 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export default function Home() {
     return <RootLayout>
-        <div className="">
-            <section
-                className="w-full min-h-screen flex flex-col justify-center items-center pl-40"
-                style={{
-                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/wallpaper.jpg')`,
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
-                }}
-            >
-                <div className="bg-opacity-90 bg-black text-white p-4 border-2 border-white rounded">
-                    <h1 className="sm:text-6xl lg:text-7xl font-bold text-center mb-5">Hi! I'm Ian Hitchman</h1>
-                    <h2 className="sm:text-xl lg:text-2xl text-center">Full-stack web developer in London</h2>
+        <div>
+            <section className="w-full min-h-screen bg-white flex flex-col justify-center items-center py-10 pl-40">
+                <div className="px-4 sm:px-40 w-full max-w-6xl mx-auto text-center">
+                    <div className="mb-10">
+                        <img
+                            src="/Me.jpg"
+                            alt="Your name"
+                            className="rounded-full w-40 h-40 object-cover border-3 border-blue-950 mx-auto"
+                            style={{border: '3px solid #000B3DFF'}}
+                        />
+                    </div>
+                    <h1 className="text-4xl font-bold text-blue-950 my-5">About Me</h1>
+                    <div className="space-y-6 mb-10">
+                        <p className="text-lg">
+                            After graduating with a degree in Mechanical Engineering and becoming a Procurement Specialist,
+                            I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned Full Stack Web Development.
+                            I've always enjoyed problem solving and thoroughly enjoy every new challenge that web development has thrown at me.
+                        </p>
+                        <p className="text-lg">
+                            My core stack is <span className="font-semibold text-blue-950">React, Next.js</span> and <span className="font-semibold">MongoDB</span> but I'm also becoming more familiar with TypeScript and SQL.
+                        </p>
+                        <p className="text-lg">
+                            When I'm not coding I enjoy cooking and travelling.
+                        </p>
+                    </div>
+                    <div className="flex justify-center space-x-8 mt-32 gap-14">
+                        {/* Icons with hover effect */}
+                        <FaHtml5 size="40" color={"#E34F26"} className="transition transform hover:scale-125 my-2"/>
+                        <FaCss3Alt size="40" color={"#1572B6"} className="transition transform hover:scale-125 my-2"/>
+                        <SiJavascript size="40" color={"#f8c41b"} className="transition transform hover:scale-125 my-2"/>
+                        <FaReact size="40" color={"#61DBFB"} className="transition transform hover:scale-125 my-2"/>
+                        <SiNextdotjs size="40" color={"#000000"} className="transition transform hover:scale-125 my-2"/>
+                        <SiTailwindcss size="40" color={"#38B2AC"} className="transition transform hover:scale-125 my-2"/>
+                    </div>
                 </div>
             </section>
-
-            <section className="w-full min-h-screen bg-white flex flex-col justify-center py-10">
-                <div className="max-w-6xl mx-auto px-4 pl-40">
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 items-start">
-                        <h4 className="text-2xl mb-10 font-bold text-center col-span-full text-blue-950">About Me</h4>
-                        <div className="col-span-full lg:col-span-2">
+            {/*
                             <p className="mb-10 body-font">
                                 Hello! I'm a seasoned procurement professional turned aspiring web
                                 developer. Having worked in procurement for nearly 8 years, I've gained
@@ -46,35 +63,10 @@ export default function Home() {
                                 a practical setting and look forward to the opportunities and challenges
                                 that lie ahead.
                             </p>
-                        </div>
-                        <div
-                            className="col-span-full md:col-span-1 flex justify-center lg:justify-end md:min-w-[250px]">
-                            <img src="/Me.jpg" alt="Your name" style={{
-                                borderRadius: '50%',
-                                width: '250px',
-                                height: '250px',
-                                objectFit: 'cover',
-                                border: '3px solid #000B3DFF',
-                            }}/>
-                        </div>
-                    </div>
-                </div>
-                <div className="max-w-6xl mx-auto px-4 pl-40">
-                    <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap mt-32">
-                        <FaHtml5 size="40" color={"#E34F26"} className="my-2"/>
-                        <FaCss3Alt size="40" color={"#1572B6"} className="my-2"/>
-                        <SiJavascript size="40" color={"#f8c41b"} className="my-2"/>
-                        <FaReact size="40" color={"#61DBFB"} className="my-2"/>
-                        <SiNextdotjs size="40" color={"#000000"} className="my-2"/>
-                        <SiTailwindcss size="40" color={"#38B2AC"} className="my-2"/>
-                    </div>
-                </div>
-                <div>
-                </div>
-            </section>
+                            */}
             <section>
                 <div className="max-w-6xl mx-auto px-4 pl-40">
-                    <h4 className="text-2xl font-bold text-center my-10">Timeline</h4>
+                    <h4 className="text-2xl font-bold text-center my-10">My Experience</h4>
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"

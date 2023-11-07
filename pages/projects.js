@@ -1,8 +1,8 @@
 //pages/projects.js
 
 import RootLayout from '../app/layout'
-import {FaCss3Alt, FaHtml5, FaNode, FaReact,} from "react-icons/fa";
-import {SiExpress, SiJavascript, SiMongodb, SiNextdotjs, SiTypescript} from "react-icons/si";
+import {FaCss3Alt, FaHtml5, FaNode, FaReact, FaSass, FaStripe} from "react-icons/fa";
+import {SiExpress, SiJavascript, SiMongodb, SiNextdotjs, SiTypescript, SiStrapi} from "react-icons/si";
 
 export default function Projects() {
     return (
@@ -39,6 +39,42 @@ export default function Projects() {
                                     <a href="https://community-mern-m1oznhhgs-ianh8899.vercel.app/" target="_blank" rel="noopener noreferrer">
                                         <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
                                             <img src="/community-mern.png" alt="stripe picture" className="w-full object-contain"/>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="w-full min-h-screen bg-lighter-blue flex flex-col justify-center py-10">
+                    <div className="mx-auto px-4 pl-40" style={{ maxWidth: "110rem" }}>
+                        <div className="p-12 bg-white shadow-2xl rounded-lg">
+                            <div className="grid grid-cols-1 lg:grid-cols-7 gap-8 my-20 items-center">
+                                <div className="col-span-full lg:col-span-4">
+                                    <h4 className="text-3xl mb-8 font-semibold text-center text-blue-950">Clothing Store eCommerce App</h4>
+                                    <p className="mb-6 text-lg leading-relaxed">
+                                        This project serves as a demonstration of a full-stack e-Commerce platform. While currently just an example, the underlying architecture and technical integration showcase a cohesive blend of frontend and backend technologies.
+                                        Try it out <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline font-bold"> here</a>
+                                    </p>
+                                    <h5 className="mb-4 font-semibold text-lg">Key Technical Features:</h5>
+                                    <ul className="mb-6 list-disc pl-5 space-y-2 text-lg">
+                                        <li>Frontend: The interface is built with React, ensuring a dynamic and interactive user experience. Styling is enhanced by the use of Sass, allowing for a more organized and maintainable CSS structure.</li>
+                                        <li>Backend: Strapi, a Node.js based headless CMS, powers the backend. It's hosted on an Ubuntu VPS via Hostinger, providing a reliable and efficient data management system.</li>
+                                        <li>Payments: While only in test mode, the integration of Stripe demonstrates the potential for handling secure transactions. It underscores the feasibility of expanding this project into a fully operational e-Commerce platform.</li>
+                                    </ul>
+                                    <div className="mt-8">
+                                        <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
+                                            <FaReact size="40" color={"#61DBFB"} className="my-2"/>
+                                            <FaSass size="40" color={"#CC6699"} className="my-2"/>
+                                            <FaStripe size="40" color={"#008CDD"} className="my-2"/>
+                                            <SiStrapi size="40" color={"#2E7EEA"} className="my-2"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-span-full md:col-span-3 flex justify-center">
+                                    <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer">
+                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
+                                            <img src="/eCommerce%20Image.jpg" alt="stripe picture" className="w-full object-contain"/>
                                         </div>
                                     </a>
                                 </div>
@@ -83,7 +119,6 @@ export default function Projects() {
                                         </li>
                                     </ul>
                                     <div className="mt-8">
-                                        <h4 className="text-2xl mb-5 font-semibold text-center text-blue-950">Tech Stack</h4>
                                         <div className="flex justify-center space-x-24 max-w-4xl mx-auto flex-wrap">
                                             <SiMongodb size="40" color={"#4DB33D"} className="my-2"/>
                                             <SiExpress size="40" color={"#000000"} className="my-2"/>
