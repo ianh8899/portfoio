@@ -9,7 +9,8 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function Home() {
     return <RootLayout>
         <div>
-            <section className="w-full min-h-screen bg-white flex flex-col justify-center items-center py-10 pl-40">
+            <div className="absolute top-[-8rem] -z-10 right-[9rem] h-[16rem] w-[16rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-blue-50"></div>
+            <section className="w-full min-h-screen flex flex-col justify-center items-center py-10 pl-40">
                 <div className="px-4 sm:px-40 w-full max-w-6xl mx-auto text-center">
                     <div className="mb-10">
                         <img
