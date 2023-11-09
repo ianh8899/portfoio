@@ -50,6 +50,13 @@ export default function Projects() {
                     <div className="mx-auto px-4 pl-40" style={{ maxWidth: "110rem" }}>
                         <div className="p-12 bg-white shadow-2xl rounded-lg">
                             <div className="grid grid-cols-1 lg:grid-cols-7 gap-8 my-20 items-center">
+                                <div className="col-span-full md:col-span-3 flex justify-center">
+                                    <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer">
+                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
+                                            <img src="/eCommerce%20Image.jpg" alt="stripe picture" className="w-full object-contain"/>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div className="col-span-full lg:col-span-4">
                                     <h4 className="text-3xl mb-8 font-semibold text-center text-blue-950">Clothing Store eCommerce App</h4>
                                     <p className="mb-6 text-lg leading-relaxed">
@@ -71,13 +78,6 @@ export default function Projects() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-span-full md:col-span-3 flex justify-center">
-                                    <a href="http://ecommerce2569896.co.uk/" target="_blank" rel="noopener noreferrer">
-                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
-                                            <img src="/eCommerce%20Image.jpg" alt="stripe picture" className="w-full object-contain"/>
-                                        </div>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,13 +86,6 @@ export default function Projects() {
                     <div className="mx-auto px-4 pl-40" style={{ maxWidth: "110rem" }}>
                         <div className="p-12 bg-white shadow-2xl rounded-lg">
                             <div className="grid grid-cols-1 lg:grid-cols-7 gap-8 items-center">
-                                <div className="col-span-full md:col-span-3 flex justify-center">
-                                    <a href="https://github.com/ianh8899/rfq-app" target="_blank" rel="noopener noreferrer">
-                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
-                                            <img src="/rfqApp%20screenshot.png" alt="RFQ app image" className="w-full object-contain"/>
-                                        </div>
-                                    </a>
-                                </div>
                                 <div className="col-span-full lg:col-span-4">
                                     <h4 className="text-3xl mb-8 font-semibold text-center text-blue-950">Request for Quotation Manager - MERN Application</h4>
                                     <p className="mb-6 text-lg leading-relaxed">
@@ -127,6 +120,13 @@ export default function Projects() {
                                         </div>
                                     </div>
                                 </div>
+                                <div className="col-span-full md:col-span-3 flex justify-center">
+                                    <a href="https://github.com/ianh8899/rfq-app" target="_blank" rel="noopener noreferrer">
+                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
+                                            <img src="/rfqApp%20screenshot.png" alt="RFQ app image" className="w-full object-contain"/>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -135,6 +135,13 @@ export default function Projects() {
                     <div className="mx-auto px-4 pl-40" style={{ maxWidth: "110rem" }}>
                         <div className="p-12 bg-white shadow-2xl rounded-lg">
                             <div className="grid grid-cols-1 lg:grid-cols-7 gap-8 my-20 items-center">
+                                <div className="col-span-full md:col-span-3 flex justify-center">
+                                    <a href="https://www.hyperiondev.com/portfolio/139412/" target="_blank" rel="noopener noreferrer">
+                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
+                                            <img src="/Hyperiondev-logo.jpg" alt="bootcamp picture" className="w-full object-contain"/>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div className="col-span-full lg:col-span-4">
                                     <h4 className="text-3xl mb-8 font-semibold text-center text-blue-950">HyperionDev Portfolio</h4>
                                     <p className="mb-6 text-lg leading-relaxed">
@@ -158,13 +165,6 @@ export default function Projects() {
                                             <FaReact size="40" color={"#2E7EEA"} className="my-2"/>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-span-full md:col-span-3 flex justify-center">
-                                    <a href="https://www.hyperiondev.com/portfolio/139412/" target="_blank" rel="noopener noreferrer">
-                                        <div className="overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-300 rounded-lg">
-                                            <img src="/Hyperiondev-logo.jpg" alt="bootcamp picture" className="w-full object-contain"/>
-                                        </div>
-                                    </a>
                                 </div>
                             </div>
                         </div>
